@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-19T23:58:10 AST" name="Default suite" finished-at="2025-04-19T23:58:14 AST" duration-ms="3764">
+  <suite started-at="2025-04-28T21:29:28 AST" name="Default suite" finished-at="2025-04-28T21:29:37 AST" duration-ms="9192">
     <groups>
     </groups>
-    <test started-at="2025-04-19T23:58:10 AST" name="Default test" finished-at="2025-04-19T23:58:14 AST" duration-ms="3764">
-      <class name="firstproject.test">
-        <test-method is-config="true" signature="mySetUp()[pri:0, instance:firstproject.test@60990e5c]" started-at="2025-04-19T23:58:10 AST" name="mySetUp" finished-at="2025-04-19T23:58:12 AST" duration-ms="2081" status="PASS">
+    <test started-at="2025-04-28T21:29:28 AST" name="Default test" finished-at="2025-04-28T21:29:37 AST" duration-ms="9192">
+      <class name="firstproject.attribute">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:firstproject.attribute@45815ffc]" started-at="2025-04-28T21:29:28 AST" name="mySetup" finished-at="2025-04-28T21:29:34 AST" duration-ms="6345" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mySetUp -->
-        <test-method signature="login()[pri:1, instance:firstproject.test@60990e5c]" started-at="2025-04-19T23:58:12 AST" name="login" finished-at="2025-04-19T23:58:13 AST" duration-ms="743" status="PASS">
+        </test-method> <!-- mySetup -->
+        <test-method signature="login()[pri:0, instance:firstproject.attribute@45815ffc]" started-at="2025-04-28T21:29:35 AST" name="login" finished-at="2025-04-28T21:29:37 AST" duration-ms="2785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addAllItem()[pri:2, instance:firstproject.test@60990e5c]" started-at="2025-04-19T23:58:13 AST" name="addAllItem" finished-at="2025-04-19T23:58:14 AST" duration-ms="667" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addAllItem -->
-        <test-method signature="printText()[pri:4, instance:firstproject.test@60990e5c]" started-at="2025-04-19T23:58:14 AST" name="printText" finished-at="2025-04-19T23:58:14 AST" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printText -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:firstproject.test@60990e5c]" started-at="2025-04-19T23:58:14 AST" name="afterTest" finished-at="2025-04-19T23:58:14 AST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- firstproject.test -->
+      </class> <!-- firstproject.attribute -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
